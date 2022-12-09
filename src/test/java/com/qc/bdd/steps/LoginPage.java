@@ -17,7 +17,7 @@ import io.cucumber.java.en.When;
 
 public class LoginPage {
 
-	WebDriver driver;
+	static WebDriver driver;
 	WebElement email, pass, signIn, logout;
 	TestUtils test = new TestUtils();
 	Properties prop;
@@ -31,6 +31,10 @@ public class LoginPage {
 			driver.manage().window().maximize();
 		}
 		driver.get(prop.getProperty("siteUrl"));
+	}
+	
+	public static WebDriver getDriver() {
+		return driver;
 	}
 
 	@Given("^enter the email id \"([^\"]*)\"$")

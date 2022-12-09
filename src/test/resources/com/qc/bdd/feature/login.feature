@@ -1,4 +1,4 @@
-@login
+@login @queuecodes
 Feature: To validate all queue codes login conditions with different data
 
 Background:

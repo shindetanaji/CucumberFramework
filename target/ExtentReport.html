@@ -1,0 +1,1568 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 9, 2022 08:01:31 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@validLogin</a><a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@queuecodes</a><a class="dropdown-item" href="#">@validRegister</a><a class="dropdown-item" href="#">@invalidLogin</a><a class="dropdown-item" href="#">@register</a><a class="dropdown-item" href="#">@invalidRegister</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To validate all queue codes login conditions with different data</p>
+            <p class="text-sm">
+              <span>8:01:32 AM</span> / <span>00:00:39:963</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">To validate all queue codes login conditions with different data</h5>
+<span class='badge badge-success'>12.09.2022 8:01:32 AM</span>
+<span class='badge badge-danger'>12.09.2022 8:02:12 AM</span>
+<span class='badge badge-default'>00:00:39:963</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>To validate dashobard page title once user will enter valid data</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.launch_login_page_on_browser()">
+                <span>Given launch login page on browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.enter_the_email_id(java.lang.String)">
+                <span>Given enter the email id "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.enter_the_password(java.lang.String)">
+                <span>And enter the password "123456"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.to_click_on_login_button()">
+                <span>When to click on login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.to_validate_dashobard_page_title(java.lang.String)">
+                <span>Then to validate dashobard page title "Queue Codes | Dashboard"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.to_click_on_logout_button()">
+                <span>And to click on logout button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.to_close_the_browser()">
+                <span>And to close the browser</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given enter the email id ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter the password ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate dashobard page title "Queue Codes | Log in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given enter the email id ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter the password "123456"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate dashobard page title "Queue Codes | Log in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given enter the email id "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter the password ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate dashobard page title "Queue Codes | Log in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="32"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given enter the email id "queuecodes@gmail."</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter the password "123123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate dashobard page title "Queue Codes | Log in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given enter the email id "queuecodes@gmail."</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter the password "123456"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate dashobard page title "Queue Codes | Log in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>To validate login page title once user will enter invalid login data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given enter the email id "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And enter the password "123123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate dashobard page title "Queue Codes | Log in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="53"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To validate all register user test cases</p>
+            <p class="text-sm">
+              <span>8:02:12 AM</span> / <span>00:00:26:091</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">To validate all register user test cases</h5>
+<span class='badge badge-success'>12.09.2022 8:02:12 AM</span>
+<span class='badge badge-danger'>12.09.2022 8:02:39 AM</span>
+<span class='badge badge-default'>00:00:26:091</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="54"><span class="badge log pass-bg mr-2">Pass</span>To validate success message once user will register with valid data</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.launch_login_page_on_browser()">
+                <span>Given launch login page on browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_click_on_register_new_membership_link()">
+                <span>And to click on register new membership link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_enter_the_user_name(java.lang.String)">
+                <span>Given to enter the user name "Queue Codes"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_enter_the_user_mobile(java.lang.String)">
+                <span>And to enter the user mobile "9145425494"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_enter_the_user_email(java.lang.String)">
+                <span>And to enter the user email "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_enter_the_user_password(java.lang.String)">
+                <span>And to enter the user password "123123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_click_on_submit_button()">
+                <span>When to click on submit button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.RegisterPage.to_validate_success_message(java.lang.String)">
+                <span>Then to validate success message "User registered successfully."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.qc.bdd.steps.LoginPage.to_close_the_browser()">
+                <span>And to close the browser</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="64"><span class="badge log pass-bg mr-2">Pass</span>To validate register page title once user will enter invalid data</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log pass-bg mr-2">Pass</span>To validate register page title once user will enter invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to click on register new membership link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given to enter the user name ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user mobile ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user email ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user password ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on submit button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate register page title "Queue Codes | Registration Page"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="75"><span class="badge log pass-bg mr-2">Pass</span>To validate register page title once user will enter invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to click on register new membership link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given to enter the user name ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user mobile "9145425494"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user email "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user password "123123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on submit button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate register page title "Queue Codes | Registration Page"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>To validate register page title once user will enter invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to click on register new membership link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given to enter the user name "Queue Codes"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user mobile ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user email "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user password "123123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on submit button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate register page title "Queue Codes | Registration Page"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="95"><span class="badge log pass-bg mr-2">Pass</span>To validate register page title once user will enter invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to click on register new membership link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given to enter the user name "Queue Codes"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user mobile "9145425494"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user email ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user password "123123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on submit button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate register page title "Queue Codes | Registration Page"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>To validate register page title once user will enter invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given launch login page on browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to click on register new membership link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given to enter the user name "Queue Codes"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user mobile "9145425494"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user email "queuecodes@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to enter the user password ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When to click on submit button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then to validate register page title "Queue Codes | Registration Page"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And to close the browser</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validLogin</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validLogin</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>To validate dashobard page title once user will enter valid data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate dashobard page title once user will enter valid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@login</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@login</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>To validate dashobard page title once user will enter valid data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate dashobard page title once user will enter valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>13</span>
+</span>
+<p class="name">@queuecodes</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@queuecodes</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>To validate dashobard page title once user will enter valid data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate dashobard page title once user will enter valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='54'>To validate success message once user will register with valid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate success message once user will register with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='65'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='75'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='85'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='95'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='105'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validRegister</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validRegister</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='54'>To validate success message once user will register with valid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate success message once user will register with valid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">@invalidLogin</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidLogin</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>To validate login page title once user will enter invalid login data</a>
+<div class="">
+<span class="badge badge-default">To validate all queue codes login conditions with different data.To validate login page title once user will enter invalid login data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">@register</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@register</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='54'>To validate success message once user will register with valid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate success message once user will register with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='65'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='75'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='85'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='95'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='105'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">@invalidRegister</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidRegister</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='65'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='75'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='85'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:30 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='95'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='105'>To validate register page title once user will enter invalid data</a>
+<div class="">
+<span class="badge badge-default">To validate all register user test cases.To validate register page title once user will enter invalid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 9, 2022 08:01:31 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 9, 2022 08:02:39 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>13</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>97</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"To validate all queue codes login conditions with different data":39.963,"To validate all register user test cases":26.091
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@validLogin</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@login</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@queuecodes</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@validRegister</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@invalidLogin</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@register</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@invalidRegister</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 13,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 97,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
